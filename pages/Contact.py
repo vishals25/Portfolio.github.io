@@ -11,14 +11,14 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        background: #ADD8E600; 
+        background: rgba(50, 50, 50, 0.1); 
     }
     .stAlert p {
-        color: black; /* Change text color to black */
+        color: white; /* Change text color to black */
     }
     .eczjsme18 {
-            background-color: #B7E5F4cc !important;
-        }
+        background-color: whites !important;
+    }
     .ezrtsby2 {
     display: none !important;
     }
@@ -42,7 +42,7 @@ st.markdown(
             background-color: white;
             color: black;
             padding: 20px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            box-shadow: 0 4px 8px rgba(200, 200, 200, 0.5);
             margin: 40px 0;
             width :600px;
             text-align: left;

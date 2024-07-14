@@ -11,13 +11,13 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        background: #ADD8E600; 
+        background: rgba(50, 50, 50, 0.1); 
     }
     .stAlert p {
-        color: black; /* Change text color to black */
+        color: white; /* Change text color to black */
     }
     .eczjsme18 {
-        background-color: #B7E5F4cc !important;
+        background-color: whites !important;
     }
     .ezrtsby2 {
     display: none !important;
@@ -36,12 +36,26 @@ with col1:
     st.image(image, width=250)
 
 with col2:
-    st.title("Hi, I'm Vishal S.")
-    content="""
-        Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
-        \n Currently working with Python to upskill in the Field of Artificial Intelligence and Machine Learning (AI & ML).
-    """
-    st.info(content)
+     st.markdown("""
+    <div style='
+    border-radius: 10px;
+    background-color:rgba(50, 50, 50, 0);
+    color:  #E0E0E0;
+    padding: 20px;
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+    text-align: Left;'> 
+                         
+    # Hi, I'm Vishal S
+                 
+    ###### Self-driven, quick starter, passionate programmer with a curious mind who enjoys solving a complex and challenging real-world problems.
+    
+    ###### Currently working with Python to upskill in the Field of Artificial Intelligence and Machine Learning (AI & ML).   
+                              
+    </div>
+
+    """,
+        unsafe_allow_html=True)
 
 
 st.markdown("""

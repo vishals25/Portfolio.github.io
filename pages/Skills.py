@@ -12,14 +12,14 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        background: #ADD8E600; 
+        background: rgba(50, 50, 50, 0.1); 
     }
     .stAlert p {
         color: black; /* Change text color to black */
     }
     .eczjsme18 {
-            background-color: #B7E5F4cc !important;
-        }
+        background-color: whites !important;
+    }
     .ezrtsby2 {
     display: none !important;
     }
