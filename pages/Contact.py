@@ -44,7 +44,7 @@ st.markdown(
             padding: 20px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
             margin: 40px 0;
-            width :50%;
+            width :600px;
             text-align: left;
         '>
             <div style='font-size: 20px; margin-bottom: 10px;'> 📧 Email : <a href="mailto:svs15324@gmail.com" style="color: blue;">svs15324@gmail.com</a></div>
