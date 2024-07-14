@@ -10,27 +10,9 @@ st.set_page_config(
 st.markdown(
     """
     <style>
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color-light: #B7E5F4CC;
-        --bg-color-light-2: #B7E5F466;
+    .main .block-container {
+        background: #ADD8E600; 
     }
-}
-
-@media (prefers-color-scheme: light) {
-    :root {
-        --bg-color-light: #B7E5F4CC;
-        --bg-color-light-2: #B7E5F466;
-    }
-}
-
-.reportview-container {
-    background: var(--bg-color-light); 
-}
-
-.main .block-container {
-    background: var(--bg-color-light-2);
-}
     .stAlert p {
         color: black; /* Change text color to black */
     }

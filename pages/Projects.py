@@ -11,11 +11,8 @@ s.set_page_config(
 s.markdown(
     """
     <style>
-    .reportview-container {
-        background: #B7E5F4CC; 
-    }
     .main .block-container {
-        background: #B7E5F466; 
+        background: #ADD8E600; 
     }
     .stAlert p {
         color: black; /* Change text color to black */

@@ -11,7 +11,7 @@ st.markdown(
     """
     <style>
     .main .block-container {
-        background: #B7E5F466; 
+        background: #ADD8E600; 
     }
     .stAlert p {
         color: black; /* Change text color to black */
